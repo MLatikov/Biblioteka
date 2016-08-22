@@ -31,9 +31,11 @@ public class Biblioteka extends AppCompatActivity implements View.OnClickListene
     @Override
     public void onClick(View view) {
         switch (view.getId()){
+            //переходим на экран со всеми книгами
             case R.id.btnAllBooks:
                 Toast.makeText(this, "Не реализовано", Toast.LENGTH_SHORT).show();
                 break;
+            //переходим на экран добавления новой книги
             case R.id.btnAddBook:
                 Intent intent = new Intent(this, AddBook.class);
                 startActivity(intent);
