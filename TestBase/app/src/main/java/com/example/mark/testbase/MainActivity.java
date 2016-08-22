@@ -16,9 +16,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     Button btnBib;
     Button btnPeople;
 
-
-    final String LOG_TAG = "myLogs";
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
