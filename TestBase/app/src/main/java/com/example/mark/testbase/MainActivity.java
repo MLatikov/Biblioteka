@@ -33,10 +33,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
+            //переходим на экран библиотеки
             case R.id.btnBib:
                 Intent intent = new Intent(this, Biblioteka.class);
                 startActivity(intent);
                 break;
+            // Открываем список друзей
             case R.id.btnPeople:
                 Toast.makeText(this, "Не реализовано", Toast.LENGTH_SHORT).show();
                 break;

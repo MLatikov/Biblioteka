@@ -58,6 +58,8 @@ public class AddBook extends AppCompatActivity implements View.OnClickListener {
         }
         dbHelper.close();
     }
+
+    //база
     class DBHelper extends SQLiteOpenHelper {
 
         public DBHelper(Context context) {
