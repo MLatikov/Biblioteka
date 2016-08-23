@@ -32,12 +32,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         switch (view.getId()) {
             //переходим на экран библиотеки
             case R.id.btnBib:
-                Intent intent = new Intent(this, Biblioteka.class);
-                startActivity(intent);
+                Intent Biblioteka = new Intent(this, Biblioteka.class);
+                startActivity(Biblioteka);
                 break;
             // Открываем список друзей
             case R.id.btnPeople:
-                Toast.makeText(this, "Не реализовано", Toast.LENGTH_SHORT).show();
+                Intent Friends = new Intent(this, Friends.class);
+                startActivity(Friends);
                 break;
             default:
                 break;

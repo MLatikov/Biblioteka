@@ -16,7 +16,7 @@ public class Friends extends AppCompatActivity implements View.OnClickListener{
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.biblioteka);
+        setContentView(R.layout.friends);
 
         btnAllFriends = (Button) findViewById(R.id.btnAllFriends);
         btnAddFriend = (Button) findViewById(R.id.btnAddFriend);

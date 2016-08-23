@@ -12,14 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_weight="1"
-        android:text="Bib"
+        android:text="Библиотека"
         android:id="@+id/btnBib"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="1"
-            android:text="People"
+            android:text="Друзья"
             android:id="@+id/btnPeople"/>
     </LinearLayout>
 </LinearLayout>
